@@ -1,5 +1,7 @@
 # Importing modules in the setup script breaks mocking
 
+Tests to reproduce the problem described in https://github.com/facebook/jest/issues/3364
+
 Steps:
 1. clone this repo
 2. run `yarn` to install dependencies (I guess `npm i` should work as well, didn't test it)
